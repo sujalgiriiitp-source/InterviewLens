@@ -1,0 +1,13 @@
+fastapi==0.162.2
+uvicorn==0.54.0
+pypdf==7.0.0
+numpy
+scikit-learn
+python-dotenv==1.2.4
+python-multipart==0.0.33
+# CPU-only torch (install first, from the PyTorch CPU index):
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+torch
+transformers
+sentence-transformers
+faiss-cpu
