@@ -1,0 +1,57 @@
+{
+  "roles": [
+    {
+      "id": "ai_ml",
+      "label": "AI/ML Engineer"
+    },
+    {
+      "id": "data_science",
+      "label": "Data Science / Applied ML Engineer"
+    }
+  ],
+  "roles_warning": false,
+  "selected_file_line": "Selected: AKTUIITP2_O__1__2_ncym.pdf (58.3 KB)",
+  "session_creation_s": "33.6",
+  "first_question_at": "36.0s",
+  "questions": [
+    {
+      "index": 1,
+      "topic": "supervised learning",
+      "text": "What is the supervised learning theory about?",
+      "source": "Bishop — Pattern Recognition and Machine Learning",
+      "grounded_line": "Grounded in: Bishop — Pattern Recognition and Machine Learning"
+    },
+    {
+      "index": 2,
+      "topic": "decision trees",
+      "text": "What is the difference between a model and a decision tree?",
+      "source": "Burkov — The Hundred-Page Machine Learning Book",
+      "grounded_line": "Grounded in: Burkov — The Hundred-Page Machine Learning Book"
+    },
+    {
+      "index": 3,
+      "topic": "neural networks",
+      "text": "What is the most important factor that determines the learning rate of neural networks?",
+      "source": "Bishop — Pattern Recognition and Machine Learning",
+      "grounded_line": "Grounded in: Bishop — Pattern Recognition and Machine Learning"
+    },
+    {
+      "index": 4,
+      "topic": "model evaluation",
+      "text": "What is the model evaluation process?",
+      "source": "Mitchell — Machine Learning",
+      "grounded_line": "Grounded in: Mitchell — Machine Learning"
+    },
+    {
+      "index": 5,
+      "topic": "supervised learning",
+      "text": "What is a supervised learning algorithm?",
+      "source": "Mitchell — Machine Learning",
+      "grounded_line": "Grounded in: Mitchell — Machine Learning"
+    }
+  ],
+  "questions_answered": 5,
+  "summary_at": "46.2s",
+  "summary_snippet": "Interview summary5 of 5 questions answered. Role: AI/ML EngineerTopics covereddecision treesmodel evaluationneural networkssupervised learningOverallAnswered 5 of 5 questions across 4 topic(s). Longer, on-topic answers appeared for: decision trees, model evaluation, neural networks, supervised learning. (Basic heuristic based on answer length and keyword overlap with the source textbook material — not a score.)Note: strengths and gaps below are basic heuristics — derived only from simple recorded signals such as answer length and keyword overlap with the source material. They are not scores and not a hiring decision.Strengthsdecision treesmodel evaluationneural networkssupervised learningGapsNo gaps recorded.Full Q&A recordsupervised learning What is the supervised learning theory about?Grounded in: Bishop — Pattern Recognition and Machine LearningMy understanding of supervised learning: I would explain it from first principles, cover the definition and the key trade-offs, and give a concrete example from a project I have worked on.decision trees What is the difference between a model and a decision tree?Grounded in: Burkov — The Hundred-Page Machine Learning BookA decision tree sp",
+  "status": "PASS"
+}
