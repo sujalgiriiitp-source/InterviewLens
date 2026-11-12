@@ -1,0 +1,22 @@
+# Python / venv
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets / local config
+.env
+
+# Data — rebuilt locally (vector store + SQLite DB)
+data/
+
+# Books — copyrighted textbooks, not for the public repo
+books/
+
+# Logs
+logs/
+*.log
+
+# Frontend deps + build output
+node_modules/
+frontend/node_modules/
+frontend/dist/

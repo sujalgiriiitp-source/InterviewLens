@@ -1,0 +1,15 @@
+Hi Pgagi team,
+
+I'm Sujal Giri, a 3rd-year B.Tech CSE student at Shambhu Nath Institute of Engineering & Technology (AKTU). I'm applying for the AI/ML & Backend Engineering Intern role, and I've completed the assignment: InterviewLens, an AI-powered role-based candidate screening system that simulates a structured technical interview.
+
+What it does: a candidate uploads a resume (PDF/text) and picks a role; the backend parses the resume, retrieves relevant passages from the provided ML textbooks with RAG (MiniLM embeddings + FAISS over 5,959 chunks from Mitchell, Burkov, Bishop, Brownlee, Müller & Guido, and Bonaccorso), and a local flan-t5-base model generates five interview questions, each grounded in a retrieved passage and labelled with its source book. The candidate answers in the browser, answers persist in SQLite, and a summary is produced (labelled honestly as a heuristic, not a score).
+
+Stack: React + Vite frontend, FastAPI backend, FAISS, SQLite. No hosted LLM API and no API keys — everything runs locally on CPU after the first model download.
+
+Everything in the repo and demo is from real runs: the demo video (about 2 minutes) is built from genuine Playwright screen captures of the app running against my own resume, and the README documents the exact questions generated, the retrieved sources, and the honest limitations (question phrasing is modest with a 250M-parameter local model; session creation takes ~30 seconds on CPU).
+
+Repo, demo video, and project document (README) links are in the form. Happy to walk through the code or run it live.
+
+Thanks for considering my application,
+Sujal Giri
+sujalgiri5@gmail.com | https://www.linkedin.com/in/sujal-giri-9501253a0 | https://github.com/sujalgiriiitp-source
